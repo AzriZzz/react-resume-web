@@ -1,0 +1,55 @@
+/* FONTS ------------------------------------------------------------*/
+
+//@include font-face( "melle","../../fonts/MElle-HK-Light", ("ttf", "svg", "eot" "woff2", "woff")) { font-style: normal; font-weight: 400;}
+
+
+/* BASE ------------------------------------------------------------*/
+
+html{
+	font-size: 16px;
+}
+
+body{
+	font-size: 16px;
+	font-family: $font-default;
+	color: $text-color;
+}
+
+a{
+	&:hover, &:focus{
+		text-decoration: none;
+	}
+}
+
+/* BROWSER UPGRADE ------------------------------------------------------------*/
+
+.browserupgrade{
+	display: none;
+}
+@media screen\9 {
+	.browserupgrade{
+		display: block;
+	}
+}		
+@media screen\0 {
+	.browserupgrade{
+		display: block;
+	}
+}
+
+/* TITLES ------------------------------------------------------------*/
+
+.title{
+
+}
+
+/* HELPERS ------------------------------------------------------------*/
+
+
+
+
+/* TRANSITIONS ------------------------------------------------------------*/
+
+.trans{
+	transition: all 0.25s ease-in-out;
+}

@@ -1,0 +1,57 @@
+/* HEADER ------------------------------------------------------------*/
+
+.brand-top{
+	display: block;
+	margin: 0;
+	overflow: hidden;
+	position: relative;
+	.text{
+		@include position(absolute, null null null -999px);
+	}
+}
+
+/* MAIN NAVIGATION ------------------------------------------------------------*/
+
+.btn-nav{	
+	width: 30px;
+	display: block;
+	height: 30px;
+	position: relative;
+	background: none;
+	border: 0;
+	padding: 0;
+
+	.line{
+		@include position(absolute, null null null 0);
+		display: block;
+		width: 20px;
+		height: 3px;
+		background: $black;
+	}
+	.line-1{
+		top: 0;
+	}
+	.line-2{
+		top: 8px;
+	}
+	.line-3{
+		top: 16px;
+	}
+	&.btn-nav-active{
+		.line-1{
+			top: 8px;
+			transform: rotate(45deg);
+		}
+		.line-2{
+			opacity: 0;
+		}
+		.line-3{
+			top: 8px;
+			transform: rotate(-45deg);
+		}		
+	}
+}
+
+.nav-menu{
+	
+}

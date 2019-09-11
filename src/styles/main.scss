@@ -1,0 +1,66 @@
+/*!
+Theme Name: React SPA Base Theme
+
+Author: Muhammad Azri Bin Zainal
+Author URI: 
+
+Description: This theme was produced by Azri +60 176961412
+Version: 1.0 (react, scss, bootstrap 5)
+
+Project author:
+Project: 
+Date: 09/2019
+*/
+
+@import "variables";
+
+//BASE PLUGINS
+@import "../libs/bourbon/core/bourbon";
+@import "../libs/fontawesome-free/scss/brands";
+// @import "../libs/fontawesome-free/scss/solid";
+// @import "../libs/fontawesome-free/scss/regular";
+// @import "../libs/fontawesome-free/scss/fontawesome";
+@import "../libs/fontawesome-free/scss/fontawesome.scss";
+@import "bootstrap";
+
+// //GLOBAL
+@import "global";
+@import "forms";
+@import "buttons";
+
+// //SITE BASE
+@import "header";
+@import "footer";
+@import "pages";
+
+// //PAGES
+@import "page-home";
+
+/* MEDIA QUERY ------------------------------------------------------------*/
+
+//Only size
+@include media-breakpoint-only(xs) {}
+
+// //Between size
+@include media-breakpoint-between(md, xl) {}
+
+
+// // Small devices (landscape phones, 576px and up)
+@include media-breakpoint-up(sm) {
+
+}
+
+// // Medium devices (tablets, 768px and up)
+@include media-breakpoint-up(md) {
+
+}
+
+// Large devices (desktops, 992px and up)
+@include media-breakpoint-up(lg) {
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@include media-breakpoint-up(xl) {
+
+}
