@@ -17,16 +17,17 @@ Date: 09/2019
 //BASE PLUGINS
 @import "../libs/bourbon/core/bourbon";
 @import "../libs/fontawesome-free/scss/brands";
-// @import "../libs/fontawesome-free/scss/solid";
-// @import "../libs/fontawesome-free/scss/regular";
-// @import "../libs/fontawesome-free/scss/fontawesome";
-@import "../libs/fontawesome-free/scss/fontawesome.scss";
+@import "../libs/fontawesome-free/scss/solid";
+@import "../libs/fontawesome-free/scss/regular";
+@import "../libs/fontawesome-free/scss/fontawesome";
+@import "../libs/fontawesome-free/scss/fontawesome";
 @import "bootstrap";
 
 // //GLOBAL
 @import "global";
 @import "forms";
 @import "buttons";
+@import "sidebar";
 
 // //SITE BASE
 @import "header";

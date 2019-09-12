@@ -1,18 +1,13 @@
 import React , { Component }from 'react';
-import Footer from './templates/footer';
-import Header from "./templates/header";
-import Body from './templates/body';
+// import Header from "./templates/header";
+// import Body from './templates/body';
+import Sidebar from './templates/sidebar';
 
 class App extends Component{
   render() {
     return (
       <div className="App">
-        <Header />
-        <div className="container mt-5 pt-5">
-          <h1 className="black">This is React</h1>
-        </div>
-        <Body />
-        <Footer />
+        <Sidebar />
       </div>
     )
   }
